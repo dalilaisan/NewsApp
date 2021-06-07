@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+            android:id="@+id/breakingNews"
+            android:enabled="true"
+            android:icon="@drawable/ic_add_alert_black_24dp"
+            android:title="@string/breaking_news"/>
+    <item
+            android:id="@+id/savedNews"
+            android:enabled="true"
+            android:icon="@drawable/ic_favorite_black_24dp"
+            android:title="@string/saved_news"/>
+
+    <item
+            android:id="@+id/searchNews"
+            android:enabled="true"
+            android:icon="@drawable/ic_all_news_24dp"
+            android:title="@string/search_news"/>
+
+</menu>
