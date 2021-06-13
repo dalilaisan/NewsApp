@@ -2,18 +2,18 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-            android:id="@+id/breakingNews"
+            android:id="@+id/breakingNewsFragment"
             android:enabled="true"
             android:icon="@drawable/ic_add_alert_black_24dp"
             android:title="@string/breaking_news"/>
     <item
-            android:id="@+id/savedNews"
+            android:id="@+id/savedNewsFragment"
             android:enabled="true"
             android:icon="@drawable/ic_favorite_black_24dp"
             android:title="@string/saved_news"/>
 
     <item
-            android:id="@+id/searchNews"
+            android:id="@+id/searchNewsFragment"
             android:enabled="true"
             android:icon="@drawable/ic_all_news_24dp"
             android:title="@string/search_news"/>
