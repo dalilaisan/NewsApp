@@ -1,8 +1,8 @@
 package com.example.dalila.newsapp.api
 
 
+import com.example.dalila.newsapp.BuildConfig
 import com.example.dalila.newsapp.NewsResponse
-import com.example.dalila.newsapp.util.Constants.Companion.API_KEY
 import retrofit2.Response
 import retrofit2.http.GET;
 import retrofit2.http.Query
@@ -16,7 +16,7 @@ public interface NewsApi {
         @Query("page")
         pageNumber: Int = 1,
         @Query("apiKey")
-        apiKey: String = API_KEY
+        apiKey: String = BuildConfig.API_KEY
     ): Response<NewsResponse>
 
 
@@ -27,7 +27,7 @@ public interface NewsApi {
         @Query("page")
         pageNumber: Int = 1,
         @Query("apiKey")
-        apiKey: String = API_KEY
+        apiKey: String = BuildConfig.API_KEY
     ): Response<NewsResponse>
 
 }
